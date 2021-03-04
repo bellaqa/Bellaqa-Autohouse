@@ -921,6 +921,13 @@ html {
 		position: relative;
 	}
 
+	@media screen and (min-width: 350px) and (max-width: 500px) {
+		.overlay-desc h1 {
+			margin: 2em 1em 0em 1em !important;
+			font-size: 2em !important;
+		}
+	}
+
 	.overlay-desc {
 		background-color: rgba(28,28,28,0.4);
 		position: absolute  !important;
@@ -1093,10 +1100,9 @@ html {
 	#about {
 		padding-top: 1em;
 		font-family: 'Roboto', sans-serif !important;
-		font-size: 1.3em;
+		font-size: 1.2em;
 		font-weight: 400;
 		line-height: 1.6em;
-
 	}
 
 	#nice {
@@ -1104,6 +1110,7 @@ html {
 		font-size: 2em;
 		font-family: 'Bebas Neue', cursive !important;
 		text-align: center !important;
+		margin-bottom: 20px !important;
 	}
 
 	#videoBG2 {

@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-/*
-	Interphase by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Basic */
 
@@ -25,6 +20,14 @@
 	.overlay-desc h1 {
 		margin: 1.6em 1.5em 0 1.5em !important;
 		font-size: 5em !important;
+	}
+
+	#about {
+		font-size: 1.1em;
+	}
+
+	#nice {
+		margin-bottom: 20px;
 	}
 
 	#paragraf {
